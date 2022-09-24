@@ -1,0 +1,113 @@
+*, *::before, *::after{
+    font-weight: normal;
+    font-family:'Courier New', Courier, monospace;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body{
+    padding: 0;
+    margin: 0;
+    background:linear-gradient(to right, #4458D0,#C450C0 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .calculator-box{
+    margin-top: 10%;
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    overflow: hidden;
+    justify-content: center;
+    form .screen{
+        width: 100%;
+        height: 100px;
+        border: none;
+        font-size: 2rem;
+        padding: 1rem;
+        color: #fff;
+        background: #000;
+        text-align: right;
+        
+    }
+    .screen1{
+        width: 100%;
+        height: 30px;
+        border: none;
+        font-size: 1.9rem;
+        padding: 16px;
+        color: rgb(90, 82, 82);
+        background: #000;
+        text-align: right;
+        position: relative;
+        z-index: 0;
+       
+    }
+    .button-operators{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 20px 0px;
+        .btn-success{
+            flex: 0 0 22%;
+            margin: 5px 0;
+            border: 1px solid black;
+            width: 24px;
+            height: 52px;
+            font-size:22px;
+            border-radius: 5px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+    }
+    .buttons{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+        .btn{
+            background-color: #202124;
+            color: white;
+            flex: 0 0 30%;
+            margin: 5px 0;
+            border: 1px solid black;
+            width: 24px;
+            height: 52px;
+            font-size:22px;
+            border-radius: 5px;
+            font-weight: 900;
+            cursor: pointer;
+            &:hover{
+                background-color:rgba(0, 0, 0, 0.8) ;
+            }
+        }
+        .btn-warning{
+
+            background-color: #FFC107;
+            color: white;
+            flex: 0 0 30%;
+            margin: 5px 0;
+            border: 1px solid black;
+            width: 84px;
+            height: 112px;
+            font-size:22px;
+            border-radius: 5px;
+            font-weight: 900;
+            cursor: pointer;
+            position: absolute;
+            left: 68.5%;
+            top: 59.5%;
+        }
+
+    }
+    
+}
+  
+  
+    
+  
