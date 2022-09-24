@@ -7,6 +7,7 @@
     let buttonOperator = document.querySelectorAll('.btn-success');
     let number1,number2, answer,operator;
 
+//number buttons to be click.
 
     buttonNum.forEach(function(button){
         button.addEventListener('click', function(e){
@@ -14,6 +15,8 @@
             screen.value += value;
         })
     })
+
+//After pressing the operator, it will pass the value to number1 which is a variable that holds the first input number;
     
     buttonOperator.forEach(function(button){
         button.addEventListener('click',function(e){
@@ -26,6 +29,7 @@
         })
     })
     
+// Pressing equals to get the actual answer, but I pass the value of the 2nd input after the operator is commited.
 
     buttonEquals.addEventListener('click',function(e){
         number2 = screen.value;
@@ -48,11 +52,13 @@
         }
         
     })
+//clear input box
     buttonClr.addEventListener('click',function(e){
         screen.value = "";
         screen1.value = "";
     })
     console.log(buttonOperator.innerHTML);
 })();
+
 
 
