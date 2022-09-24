@@ -32,15 +32,19 @@
         if(operator === "+"){
             answer = eval(number1+operator+number2);
             screen.value = answer;
+            screen1.value = " ";
         }else if(operator === "-"){
             answer = eval(number1+operator+number2);
             screen.value = answer;
+            screen1.value = " ";
         }else if(operator ==="/"){
             answer = eval(number1+operator+number2);
             screen.value = answer;
+            screen1.value = " ";
         }else if(operator ==="*"){
             answer = eval(number1+operator+number2);
             screen.value = answer;
+            screen1.value = " ";
         }
         
     })
