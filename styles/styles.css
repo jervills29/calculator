@@ -85,6 +85,11 @@ body {
 .calculator-box .buttons .btn:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+.calculator-box .buttons .hide {
+  background-color: white;
+  color: white;
+  border: none;
+}
 .calculator-box .buttons .btn-warning {
   background-color: #FFC107;
   color: white;
